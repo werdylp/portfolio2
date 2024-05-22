@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Werdy's 90's Style Portfolio</title>
+    <style>
+        body {
+            background-color: #008080;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #ffffff;
+            margin: 0;
+            overflow: hidden;
+        }
+        .desktop {
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+            background-image: url('win95-wallpaper.png'); /* Local image file */
+            background-size: cover;
+        }
+        .icon {
+            position: absolute;
+            width: 72px;
+            text-align: center;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+        }
+        .icon img {
+            display: block;
+            width: 48px;
+            height: 48px;
+            margin: 0 auto;
+        }
+        .icon span {
+            display: block;
+            margin-top: 5px;
+        }
+        .taskbar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40px;
+            background-color: #C0C0C0;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
+            padding-left: 5px;
+        }
+        .start-button {
+            background: linear-gradient(to bottom, #C0C0C0, #808080);
+            border: 2px solid #404040;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            box-shadow: inset -2px -2px 0 #FFFFFF, inset 2px 2px 0 #000000;
+            text-shadow: 1px 1px #000000;
+            color: #000000;
+        }
+        .start-button img {
+            width: 20px;
+            margin-right: 5px;
+        }
+        .start-button p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="desktop">
+        <a href="https://github.com/werdylp" class="icon" style="top: 50px; left: 50px;">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Icon">
+            <span>GitHub</span>
+        </a>
+        <a href="https://www.deviantart.com/werdylp" class="icon" style="top: 50px; left: 150px;">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-deviantart-15-461786.png" alt="DeviantArt Icon">
+            <span>DeviantArt</span>
+        </a>
+        <a href="https://soundcloud.com/werdy-841254384" class="icon" style="top: 50px; left: 250px;">
+            <img src="https://icons.iconarchive.com/icons/danleech/simple/256/soundcloud-icon.png" alt="SoundCloud Icon">
+            <span>SoundCloud</span>
+        </a>
+        <a href="https://blog.lets-study.cz/" class="icon" style="top: 150px; left: 50px;">
+            <img src="https://lets-study.cz/assets/logo/Let's%20Study.png" alt="Blog Icon">
+            <span>Blog let's study</span>
+        </a>
+    </div>
+    <div class="taskbar">
+        <div class="start-button">
+            <img src="https://c0.klipartz.com/pngpicture/124/301/gratis-png-windows-95-windows-98-iconos-de-la-computadora-microsoft-thumbnail.png" alt="Windows Logo">
+            <p>Start</p>
+        </div>
+    </div>
+</body>
+</html>
